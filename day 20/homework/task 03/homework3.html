@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 3</title>
+</head>
+<body>
+    <h1>Video</h1>
+    <hr>
+    <video controls autoplay loop muted>
+        <source src="./videos/Countdown Timer - 10 seconds with womens voice.mp4" type="video/mp4"> 
+        <source src="./videos/Countdown Timer - 10 seconds with womens voice.mkv" type="video/mkv">
+        <source src="./videos/Countdown Timer - 10 seconds with womens voice.webm" type="video/webm">
+    </video>
+    <h1>Audio</h1>
+    <hr>
+    <audio controls autoplay loop muted>
+        <source src="./audios/ssvid.net--EMINEM-and-AKON-smack-that-WITH-A-TEXT.mp3" type="audio/mp3"> 
+        <source src="./audios/ssvid.net--EMINEM-and-AKON-smack-that-WITH-A-TEXT.ogg" type="audio/ogg">
+        <source src="./audios/ssvid.net--EMINEM-and-AKON-smack-that-WITH-A-TEXT.wav" type="audio/wav">
+    </audio>
+    <!-- controls = ვიდეოს ან აუდიოს ამტებს კონტროლს: ვიდეოს დაპაუზება, ხმის გამორთვა-ჩართვა, დროის ხაზი(გადახვევა რომ შეგვიძლია) -->
+    <!-- autoplay = საიტი როცა ჩაიტვირთება მაშინვე იწყებს ვიდეოს ან აუდიოს დაკვრას -->
+    <!-- loop = როდესაც ვიდეო ან აუდიო დამთავრდება თვიდან იწყებს დაკვრას -->
+    <!-- muted = როდესაც საიტი ჩაიტვირთება ვიდეოს ან აუდიოს ავტომატურად აქვს ხმა გამორთული -->
+    <audio src="./audios/ssvid.net--EMINEM-and-AKON-smack-that-WITH-A-TEXT.mp3" controls autoplay loop muted></audio>
+    <!-- სწორი გზა არის source tag-ის გამოყენება რადგან ერთმა თუ არ იმუშავა გვაქვს ალტერნატიული ფორმატები -->
+</body>
+</html>
