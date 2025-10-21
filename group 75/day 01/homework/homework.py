@@ -1,5 +1,5 @@
 print("my favorite food is xacafuri")
-print("my favorite color is red")
+print("my favorite color is black")
 print("my favorite hobby is wrestling")
 
 
